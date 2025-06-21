@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Fucking Hate Scrum</title>
+    
+    <!-- SEO and Social Media Meta Tags -->
+    <meta name="description" content="A cathartic collection of real developer opinions about Scrum methodology. Honest frustrations from the software development community.">
+    <meta name="keywords" content="scrum, agile, developer frustration, software development, methodology critique">
+    <meta name="author" content="Developer Community">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ifuckinghaterscrum.com/">
+    <meta property="og:title" content="I Fucking Hate Scrum">
+    <meta property="og:description" content="Real opinions from real developers about an 'agile' methodology which unfortunately is also real.">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://ifuckinghaterscrum.com/">
+    <meta property="twitter:title" content="I Fucking Hate Scrum">
+    <meta property="twitter:description" content="Real opinions from real developers about an 'agile' methodology which unfortunately is also real.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="public/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="public/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>I Fucking Hate Scrum</h1>
+            <button class="mascot" onclick="showRandomOpinion()" aria-label="Get a random opinion about Scrum">
+                <div class="scrum-monster" aria-hidden="true">🏉</div>
+                <span class="click-hint">Click the Rugby Ball for an honest opinion</span>
+            </button>
+        </header>
+
+        <main>
+            <div class="opinion-container">
+                <div class="opinion" id="current-opinion">
+                    <p></p>
+                    <div class="opinion-meta">
+                        <span class="author"></span>
+                        <span class="role"></span>
+                    </div>
+                    <div class="highlight-quote">
+                    </div>
+                </div>
+            </div>
+
+            <div class="navigation">
+                <button onclick="showRandomOpinion()" class="nav-btn" aria-label="Get another opinion">
+                    Another opinion →
+                </button>
+            </div>
+        </main>
+
+        <footer>
+            <p>Real opinions from real developers about an "agile" methodology which unfortunately is also real. Keep in mind, many of the quoted developers use 'agile' and 'Scrum' interchangeably.
+               <a href="https://github.com/Sharma-IT/i-fucking-hate-scrum/issues/new" class="link">Submit your opinion</a>, or help me cope with my grief and 
+               <a href="https://coff.ee/shubham.tech" class="link">buy me a coffee</a>.
+            </p>
+        </footer>
+    </div>
+
+    <!-- JavaScript Modules - Load in dependency order -->
+    <script src="js/config.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/opinions-data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

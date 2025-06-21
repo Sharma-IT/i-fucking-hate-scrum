@@ -1,0 +1,42 @@
+{
+  "name": "i-fucking-hate-scrum",
+  "version": "2.0.0",
+  "description": "A cathartic website for developers to share their honest feelings about Scrum methodology - now with modular JavaScript architecture",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000",
+    "deploy": "netlify deploy --prod --dir=. --site=ifuckinghaterscrum",
+    "deploy:preview": "netlify deploy --dir=. --site=ifuckinghaterscrum"
+  },
+  "keywords": [
+    "scrum",
+    "agile",
+    "developer",
+    "frustration",
+    "methodology",
+    "software-development",
+    "modular-javascript",
+    "vanilla-js"
+  ],
+  "author": "Shubham Sharma",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sharma-IT/i-fucking-hate-scrum.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sharma-IT/i-fucking-hate-scrum/issues"
+  },
+  "homepage": "https://github.com/Sharma-IT/i-fucking-hate-scrum#readme",
+  "files": [
+    "index.html",
+    "styles.css",
+    "js/",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
