@@ -1,6 +1,10 @@
 # I Fucking Hate Scrum
 
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-orange?logo=buy-me-a-coffee)](https://buymeacoffee.com/shubham.tech)
+
 A cathartic website for developers to share their honest feelings about Scrum methodology. Inspired by the frustrations of countless developers who've endured endless ceremonies, meaningless metrics, and the bureaucratic overhead of "agile" development.
+
+![image](https://github.com/user-attachments/assets/30b32582-c688-4c30-bcf9-1f52ff98fc5a)
 
 ## About
 
